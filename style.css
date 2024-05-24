@@ -3,7 +3,7 @@ body {
     font-size: 1em;
     line-height: 1.75em;
     text-align: left;
-    background-color: #f6fcff;
+    background-color: #f3f1ea;
     padding: 0 28px 0 28px;
     margin: 0px;
 }
@@ -53,7 +53,10 @@ a:hover {
 }
 
 img {
-    border-radius: 6px;
+    max-width: 100%;
+    margin: 12px;
+    border-radius: 8px;
+    box-shadow: 1px 2px 10px 2px #00000060;
 }
 
 hr {
@@ -68,8 +71,21 @@ hr {
     padding: 32px;
     display: flex;
     box-shadow: 1px 2px 10px 2px #00000047;
-    background-color: #fff2e5;
-    border-radius: 8px;
+    background-color: #fff7ef;
+    border-radius: 12px;
+}
+
+.cover-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    max-width: 1100px;
+    width: 100%;
+    padding: 32px 32px 48px 32px;
+    box-shadow: 1px 2px 10px 2px #00000047;
+    background-color: #fff7ef;
+    border-radius: 12px;
 }
 
 .left-text-column {
@@ -129,6 +145,7 @@ hr {
     width: 100%;
     display: flex;
     margin: 0 0 32px 0;
+    margin-bottom: 100px;
 }
 
 .previous-chapter {
@@ -167,4 +184,32 @@ hr {
 
 .small-text {
     font-size: 0.9em;
+}
+
+.large-text {
+    font-size: 1.2em;
+    padding: 16px 0 16px 0;
+}
+
+.font-link {
+    color: rgb(100, 25, 25);
+    font-family: 'Times New Roman', serif;
+}
+
+.great-vibes-font {
+    font-family: Great Vibes, serif;
+}
+
+.cinzel-decorative-font {
+    font-family: Cinzel Decorative, serif;
+}
+
+.image-link {
+    max-width: 70%;
+    transition: all 0.5s ease;
+}
+
+.image-link:hover {
+    max-width: 73%;
+    transition: all 0.5s ease;
 }
